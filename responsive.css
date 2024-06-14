@@ -1,0 +1,58 @@
+@media screen and (max-width: 576px) {
+
+  #showcase h1 {
+      font-size: 2.5rem;
+    }
+
+    .picture-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .pic1 {
+      width: 80%;
+      margin-bottom: 10px;
+      height: 300px;
+    }
+
+    #section-c {
+      flex-direction: column;
+      background: none;
+      box-shadow: none;
+      align-items: center;
+      /* padding: 0; */
+    }
+
+    #section-c2 {
+      margin-top: -100px;
+      flex-direction: column;
+      background: none;
+      box-shadow: none;
+      align-items: center;
+      /* padding: 0; */
+    }
+
+
+    #section-c div {
+      /* background-image: none; */
+      width: 80%;
+      box-shadow: none;
+      margin-bottom: 10px;
+    }
+
+        
+    #section-c2 div {
+      /* background-image: none; */
+      width: 80%;
+      box-shadow: none;
+      margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+}

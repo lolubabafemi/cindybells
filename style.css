@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #043040;
+  line-height: 1.6;
+  align-items: center;
+}
+
+
+#showcase {
+  background-image: url(images/hotel\ image.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 70px;
+  /* color: white; */
+  color: #cda274;
+  /* color: #043040; */
+  line-height: 1.2;
+
+}
+
+
+
+
+#showcase p {
+  font-size: 20px;
+  margin-top: 5px;
+  color: white;
+}
+
+#showcase a {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #043040;
+  border: #043040 1px solid;
+  padding: 10px 20px;
+  background-color: #cda274;
+  border-radius: 7px;
+}
+
+#showcase a:hover {
+  color: #cda274;
+  background-color: #043040;
+  border: #cda274 1px solid;
+}
+
+
+.mainbody {
+  width: 90vw;
+  margin: auto;
+}
+
+#section-a {
+  padding: 120px 40px;
+  color: #cda274;
+  /* background-color: rgb(91, 91, 214); */
+  background-color: #043040;
+  text-align: center;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+#section-b {
+
+  border-radius: 7px;
+  padding: 40px 20px;
+  margin-top: 30px;
+  color: #043040;
+  background-color: #cda274;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+/* #section-b div {
+  width: 40%;
+} */
+
+.picture-gallery {
+  margin-top: 40px;
+  justify-content: space-evenly;
+  display: flex;
+  overflow: hidden;
+}
+
+.pic1 {
+  width: 45%;
+  height: 400px;
+  background-color: #043040;
+  border-radius: 7px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+-webkit-box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+-moz-box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+}
+
+.pic11 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#section-c {
+  background-color: #043040;
+  /* height: 70vh; */
+  padding: 50px 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+-webkit-box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+-moz-box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+}
+
+#section-c2 {
+  background-color: #043040;
+  /* height: 70vh; */
+  padding: 50px 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+-webkit-box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+-moz-box-shadow: -3px 6px 14px -1px rgba(0,0,0,0.41);
+}
+
+#section-c div {
+  height: 40vh;
+  padding: 20px;
+  width: 25vw;
+  border-radius: 7px;
+  align-content: center;
+  text-align: center;
+}
+
+#section-c2 div {
+  height: 40vh;
+  padding: 20px;
+  width: 25vw;
+  border-radius: 7px;
+  align-content: center;
+  text-align: center;
+}
+
+
+#section-c a {
+  text-decoration: none;
+  padding: 20px;
+  background-color: #043040;
+  color: #cda274;
+  border-radius: 7px;
+  width: 100px;
+}
+
+#section-c2 a {
+  text-decoration: none;
+  padding: 20px;
+  background-color: #043040;
+  color: #cda274;
+  border-radius: 7px;
+  width: 100px;
+}
+
+#section-c a:hover {
+   color: #043040;
+  background-color: #cda274;
+  border: #043040 1px solid;
+}
+
+
+#section-c2 a:hover {
+  color: #043040;
+ background-color: #cda274;
+ border: #043040 1px solid;
+}
+
+
+button {
+ text-decoration: none;
+  font-size: 18px;
+  color: white;
+  color: rgb(29, 29, 204);
+  background-color: white;
+  border-radius: 7px;
+  border: rgb(29, 29, 204) 1px solid;
+  padding: 10px 20px;
+}
+
+
+
+.box1 {
+  font-weight: bold;
+  /* background-color: rgb(91, 91, 214);*/
+  color: white;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url(images/beach\ view.jpg);
+  box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+}
+
+
+
+.box2 {
+  font-weight: bold;
+  /* background-color: rgb(227, 227, 238); */
+  background-image: url(images/bedroom.avif);
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+-webkit-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+-moz-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+}
+
+
+
+.box3 {
+  font-weight: bold;
+  background-color: rgb(91, 91, 214);
+  color: white;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url(images/gym.jpg);
+  box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+}
+
+.box4 {
+  font-weight: bold;
+  background-color: rgb(91, 91, 214);
+  color: white;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url(images/restaurant.jpg);
+  box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+}
+
+.box5 {
+  background-color: rgb(91, 91, 214);
+  color: white;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  background-size: cover;
+  background-image: url(images/tennis.jpg);
+  box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+}
+
+.box6 {
+  font-weight: bold;
+  background-color: rgb(91, 91, 214);
+  color: white;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url(images/swim.jpg);
+  box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 6px 14px 0px rgba(0,0,0,0.41);
+}
+
+.section-d {
+  text-align: center;
+  margin-top: 60px;
+  padding: 70px 30px;
+  position: relative;
+}
+
+.section-d::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Width of the border */
+  border-top: #043040 1px solid; /* Thickness and color of the border */
+}
+
+footer {
+  padding: 20px;
+  /* background-color: #043040; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 20px;
+  color: #043040;
+}
+
+
+.bottomh3 {
+  background-color: #cda274;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  
+}
+
+
+
+h3 {
+  color: white;
+}
+
+
+
+
+
